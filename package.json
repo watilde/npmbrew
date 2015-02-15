@@ -1,0 +1,22 @@
+{
+  "name": "npmbrew",
+  "version": "0.0.1",
+  "description": "NPM Version Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/npmbrew.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/npmbrew/issues"
+  },
+  "homepage": "https://github.com/watilde/npmbrew"
+}

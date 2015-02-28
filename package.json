@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/watilde/npmbrew",
   "dependencies": {
+    "mkdirp": "^0.5.0",
     "text-table": "^0.2.0",
     "update-notifier": "^0.3.0"
   },

@@ -1,6 +1,9 @@
 # npmbrew
 NPM Version Manager
 
+## Required
+Node version >= 0.12.0
+
 ## Install
 Using npm.
 
@@ -40,3 +43,10 @@ Use npm
 $ npmbrew npm help
 Usage: npm <command> blah blah...
 ```
+
+## LICENSE
+The MIT License (MIT)
+
+Copyright (c) 2015 Daijiro Wachi
+
+See also: [LICENSE](/LICENSE).

@@ -6,7 +6,7 @@
 Using npm.
 
 ```
-$ npm install -g npmbrew
+npm install -g npmbrew
 ```
 
 ## Usage
@@ -27,19 +27,19 @@ use <version>        Use <version>
 ## Example
 Install
 ```
-$ npmbrew install v2.6.0
+npmbrew install v2.6.0
 installed
 ```
 
 Switch use version
 ```
-$ npmbrew use v2.6.0
+npmbrew use v2.6.0
 Using v2.6.0
 ```
 
 Use npm
 ```
-$ npmbrew npm help
+npmbrew npm help
 Usage: npm <command> blah blah...
 ```
 

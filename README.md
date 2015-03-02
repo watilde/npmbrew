@@ -1,4 +1,4 @@
-# npmbrew -- a NPM version manager
+# npmbrew -- a npm version manager
 
 + [![Build Status](https://api.travis-ci.org/watilde/npmbrew.svg)](https://travis-ci.org/watilde/npmbrew)
 

@@ -7,7 +7,7 @@
     "npmbrew": "./bin/npmbrew.js"
   },
   "scripts": {
-    "lint": "eslint ./lib/*.js ./lib/modules/*.js",
+    "lint": "eslint ./lib/*.js && eslint ./lib/modules/*.js",
     "tap": "NODE_ENV=development tap test/*.js",
     "test": "npm run lint && npm run tap"
   },

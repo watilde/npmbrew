@@ -1,8 +1,9 @@
 # npmbrew
 NPM Version Manager
 
-## Required
-Node version >= 0.12.0
+## Badges
++ [![NPM Version](http://img.shields.io/npm/v/npmbrew.svg)](https://www.npmjs.org/package/npmbrew)
++ [![Build Status](https://api.travis-ci.org/watilde/npmbrew.svg)](https://travis-ci.org/watilde/npmbrew)
 
 ## Install
 Using npm.

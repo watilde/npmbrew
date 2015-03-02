@@ -14,6 +14,7 @@ $ npm install -g npmbrew
 Usage: npmbrew <command>
 
 Commands:
+clean                Delete all installed sources
 help                 Output help information
 install <version>    Install the version passed
 ls                   List versions currently installed

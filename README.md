@@ -1,6 +1,6 @@
 # npmbrew -- a npm version manager
 
-+ [![Build Status](https://api.travis-ci.org/watilde/npmbrew.svg)](https://travis-ci.org/watilde/npmbrew)
+[![Build Status](https://api.travis-ci.org/watilde/npmbrew.svg)](https://travis-ci.org/watilde/npmbrew)
 
 ## Install
 Using npm.

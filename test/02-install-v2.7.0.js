@@ -4,7 +4,7 @@ var npmbrew = require("../lib/")
 var dirname = require("../lib/config").dirname
 var version = "2.7.0"
 
-test("install v2.7.0", function (t) {
+test("npmbrew install v2.7.0", function (t) {
   npmbrew.install(version, function () {
     var srcFile = dirname.src + "/npm-" + version
     var npmFile = dirname.npm + "/v" + version

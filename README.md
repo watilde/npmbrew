@@ -5,7 +5,7 @@
 ## Why created npmbrew?
 Many issue reports has come to npm everyday. Sometimes I spent much time reinstalling several different versions of npm for trying to reproduce the error.
 
-npmbrew make it easy. That's why created npmbrew.
+npmbrew makes it easy. That's why created npmbrew.
 
 ## Install
 Using npm.

@@ -30,6 +30,7 @@
     "update-notifier": "^0.3.0"
   },
   "devDependencies": {
+    "async": "^0.9.0",
     "eslint": "^0.14.1",
     "tap": "^0.7.1"
   }

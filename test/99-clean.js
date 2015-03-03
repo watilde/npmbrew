@@ -1,5 +1,4 @@
 var fs = require("fs")
-var async = require("async")
 var test = require("tap").test
 var npmbrew = require("../lib/")
 var dirname = require("../lib/config").dirname

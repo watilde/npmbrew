@@ -48,6 +48,23 @@ npmbrew npm help
 Usage: npm <command> blah blah...
 ```
 
+## Add `npmbrew npm` PATH
+Add the following line to the end of your .bashrc or .zshrc.
+```
+alias n='npmbrew npm'
+```
+
+Reload config.
+```
+source ~/.zshrc
+```
+
+Test.
+```
+n help
+Usage: npm <command> blah blah...
+```
+
 ## LICENSE
 The MIT License (MIT)
 

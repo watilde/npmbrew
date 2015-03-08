@@ -1,6 +1,6 @@
 {
   "name": "npmbrew",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "a npm version manager",
   "main": "index.js",
   "bin": {

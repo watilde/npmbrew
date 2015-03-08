@@ -65,6 +65,21 @@ n help
 Usage: npm <command> blah blah...
 ```
 
+## One more thing
+You can notice good news when you didn't know that npm latest version was updated.
+```
+npmbrew npm whoami
+watilde
+
+
+┌──────────────────────────────────────────┐
+│ Update available: 2.7.0 (current: 2.6.0) │
+│ Run npmbrew install 2.7.0 to update.     │
+└──────────────────────────────────────────┘
+
+
+```
+
 ## LICENSE
 The MIT License (MIT)
 

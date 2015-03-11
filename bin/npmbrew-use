@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+require(__dirname + "/../lib/").use(process.argv.slice(2))

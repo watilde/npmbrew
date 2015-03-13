@@ -26,6 +26,7 @@
   "homepage": "https://github.com/watilde/npmbrew",
   "dependencies": {
     "chalk": "^1.0.0",
+    "commander": "^2.7.1",
     "mkdirp": "^0.5.0",
     "rimraf": "^2.3.2",
     "string-length": "^1.0.0",

@@ -2,10 +2,10 @@
 
 [![Build Status](https://api.travis-ci.org/watilde/npmbrew.svg)](https://travis-ci.org/watilde/npmbrew)
 
-## Why created npmbrew?
-Many issue reports has come to npm everyday. Sometimes I spent much time reinstalling several different versions of npm for trying to reproduce the error.
+## Why npmbrew?
+npm is flooded with [issue reports](https://github.com/npm/npm/issues) on a daily basis. Sometimes I spent just too much time juggling around different npm versions trying to reproduce the error.
 
-npmbrew makes it easy. That's why created npmbrew. See also: [#14](https://github.com/watilde/npmbrew/issues/14)
+I created npmbrew to make it easy to switch  versions. See also: [#14](https://github.com/watilde/npmbrew/issues/14)
 
 ## Install
 Using npm.
@@ -36,7 +36,7 @@ npmbrew install v2.6.0
 installed
 ```
 
-Switch use version
+Switch version with `use`:
 ```
 npmbrew use v2.6.0
 Using v2.6.0
@@ -48,7 +48,7 @@ npmbrew npm help
 Usage: npm <command> blah blah...
 ```
 
-## Add `npmbrew npm` PATH
+## Add `npmbrew npm` to PATH
 Add the following line to the end of your .bashrc or .zshrc.
 ```
 alias n='npmbrew npm'
@@ -66,7 +66,7 @@ Usage: npm <command> blah blah...
 ```
 
 ## One more thing
-You can notice good news when you didn't know that npm latest version was updated.
+npmbrew uses [update-notifier](https://github.com/yeoman/update-notifier/), to let users know when there is a new version available for download.
 ```
 npmbrew npm whoami
 watilde

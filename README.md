@@ -51,7 +51,8 @@ Usage: npm <command> blah blah...
 ## Add `npmbrew npm` to PATH
 Add the following line to the end of your .bashrc or .zshrc.
 ```
-alias n='npmbrew npm'
+# npmbrew
+export PATH=$HOME/.npmbrew/current/bin:$PATH
 ```
 
 Reload config.
@@ -61,7 +62,7 @@ source ~/.zshrc
 
 Test.
 ```
-n help
+npm help
 Usage: npm <command> blah blah...
 ```
 

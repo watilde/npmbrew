@@ -69,7 +69,7 @@ Usage: npm <command> blah blah...
 ## One more thing
 npmbrew uses [update-notifier](https://github.com/yeoman/update-notifier/), to let users know when there is a new version available for download.
 ```
-npmbrew npm whoami
+npm whoami
 watilde
 
 

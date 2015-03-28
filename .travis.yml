@@ -3,6 +3,7 @@ node_js:
   - iojs
   - "0.12"
   - "0.10"
+  - "0.8"
 env:
   - NODE_ENV=development
 script: "npm test"

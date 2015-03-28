@@ -1,6 +1,7 @@
 # npmbrew -- a npm version manager
 
 [![Build Status](https://api.travis-ci.org/watilde/npmbrew.svg)](https://travis-ci.org/watilde/npmbrew)
+[![NPM Downloads](http://img.shields.io/npm/dm/npmbrew.svg)](https://www.npmjs.org/package/npmbrew)
 
 ## Why npmbrew?
 npm is flooded with [issue reports](https://github.com/npm/npm/issues) on a daily basis. Sometimes I spent just too much time juggling around different npm versions trying to reproduce the error.

@@ -33,7 +33,7 @@
     "update-notifier": "^0.3.1"
   },
   "devDependencies": {
-    "eslint": "^0.17.1",
+    "eslint": "^0.18.0",
     "tap": "^0.7.1"
   }
 }

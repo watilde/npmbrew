@@ -4,7 +4,6 @@
   },
   "rules" : {
     "camelcase": 0,
-    "max-len": 80,
     "semi": [2, "never"],
     "comma-style": [2, "last"],
     "strict": 0,

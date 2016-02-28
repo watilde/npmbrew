@@ -7,6 +7,7 @@
     "npmbrew": "./bin/npmbrew.js"
   },
   "scripts": {
+    "preversion": "npm test",
     "lint": "eslint ./lib/*.js && eslint ./lib/modules/*.js && eslint ./test/*.js",
     "tap": "NODE_ENV=development tap test/*.js",
     "test": "npm run lint && npm run tap"
@@ -33,7 +34,7 @@
     "update-notifier": "^0.6.0"
   },
   "devDependencies": {
-    "eslint": "^1.1.0",
+    "eslint": "^2.2.0",
     "tap": "^5.4.2"
   }
 }

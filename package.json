@@ -31,7 +31,7 @@
     "rimraf": "^2.3.4",
     "string-length": "^1.0.1",
     "text-table": "^0.2.0",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^0.7.0"
   },
   "devDependencies": {
     "eslint": "^2.2.0",

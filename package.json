@@ -8,7 +8,7 @@
   },
   "scripts": {
     "preversion": "npm test",
-    "lint": "eslint ./lib/*.js && eslint ./lib/modules/*.js && eslint ./test/*.js",
+    "lint": "standard",
     "tap": "NODE_ENV=development tap test/*.js",
     "test": "npm run lint && npm run tap"
   },
@@ -34,7 +34,7 @@
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {
-    "eslint": "^2.2.0",
+    "standard": "^7.1.0",
     "tap": "^5.4.2"
   }
 }

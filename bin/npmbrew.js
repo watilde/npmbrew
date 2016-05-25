@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require(require('path').resolve(__dirname, '/../lib/cli'))
+require(require('path').resolve(__dirname, '../lib/cli'))

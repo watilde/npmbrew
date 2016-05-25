@@ -8,7 +8,7 @@
   },
   "scripts": {
     "preversion": "npm test",
-    "lint": "eslint ./lib/*.js && eslint ./lib/modules/*.js && eslint ./test/*.js",
+    "lint": "standard",
     "tap": "NODE_ENV=development tap test/*.js",
     "test": "npm run lint && npm run tap"
   },
@@ -31,10 +31,10 @@
     "rimraf": "^2.3.4",
     "string-length": "^1.0.1",
     "text-table": "^0.2.0",
-    "update-notifier": "^0.6.0"
+    "update-notifier": "^0.7.0"
   },
   "devDependencies": {
-    "eslint": "^2.2.0",
+    "standard": "^7.1.0",
     "tap": "^5.4.2"
   }
 }
